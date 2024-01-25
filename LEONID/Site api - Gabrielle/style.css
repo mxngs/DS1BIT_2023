@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+    display: flex;
+}
+
+
+.fundoPrincipal{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    z-index: -1;
+
+}
+
+.titulo{
+    font-family: 'Jolly Lodger', cursive;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    left: 650px;
+}
+
+.informacoes{
+    top: 10px;
+    left: 1650px;
+    width: 70px;
+    position: relative;
+}
+
+button{
+    background-color: black;
+    cursor: pointer;
+}

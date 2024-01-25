@@ -1,0 +1,2 @@
+azureuser nome de usuario
+chave0505 chave
